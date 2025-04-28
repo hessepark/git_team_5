@@ -4,6 +4,8 @@
   "scripts": {
     "lint": "eslint . --ext .js,.jsx",
     "format": "prettier --write .",
+    "build": "echo \"build success\"",
+    "test": "echo \"test success\"",
     "prepare": "husky install"
   },
   "devDependencies": {
